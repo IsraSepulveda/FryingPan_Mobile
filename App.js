@@ -1,20 +1,43 @@
+import React from 'react';
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import { LogBox } from 'react-native';
+import { NavigationContainer } from '@react-navigation/native';
+import { NativeBaseProvider, extendTheme } from 'native-base';
+
+// Redux 
+import { Provider } from 'react-redux';
+import store from './Redux/store';
+
+
+// Themes
+const newColorTheme = {
+  brand: {
+    900: '#5B8DF6',
+    800: '#ffffff',
+    700: '#cccccc',
+  },
+};
+
+const theme = extendTheme({
+colors: newColorTheme,
+});
+
+// Navigators
+import Main from './Navigators/Main'
+
+// Screens
+import ProductContainer from './Screens/Products/ProductContainer';
+import Header from './Shared/Header';
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
+    <Provider store={store}>
+      <NativeBaseProvider theme={theme}>
+      <NavigationContainer>
+      <Header />
+      <Main />
+      </NavigationContainer>
+    </NativeBaseProvider>
+    </Provider>
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});

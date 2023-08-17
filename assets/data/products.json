@@ -1,0 +1,103 @@
+[{
+    "_id": {
+      "$oid": "5f15d8852a025143f9593a7c"
+    },
+    "image": "https://i.imgur.com/QJDCGEw.png",
+    "brand": "Frying Pan",
+    "price": 89.99,
+    "rating": 1,
+    "numReviews": 0,
+    "isFeatured": true,
+    "name": "Sushi",
+    "description": "Japanese delicacy consisting of vinegared rice combined with fresh seafood, vegetables, or other ingredients. It is meticulously prepared by skilled chefs who craft each bite-sized piece with precision and artistry. Sushi represents a harmonious blend of flavors, textures, and aesthetics, inviting diners to indulge in a culinary experience that embodies simplicity, balance, and the beauty of Japanese cuisine.",
+    "category": {
+      "$oid": "5f15d5cdcb4a6642bddc0fe9"
+    },
+    "countInStock": 25,
+    "__v": 0
+  },{
+    "_id": {
+      "$oid": "5f15d92ee520d44421ed8e9b"
+    },
+    "image": "https://i.imgur.com/uMqswhR.png",
+    "brand": "Frying Pan",
+    "price": 59.99,
+    "rating": 5,
+    "numReviews": 0,
+    "isFeatured": true,
+    "name": "Dumplings",
+    "description": "These bite-sized wonders consist of a thin dough filled with a flavorful mixture of meat, vegetables, or both. They are then shaped and cooked by methods such as boiling, steaming, or frying. With their diverse fillings and cooking techniques, dumplings offer a delectable combination of textures, tastes, and aromas. These little parcels of goodness bring people together, serving as a symbol of comfort, celebration, and the joy of shared meals.",
+    "category": {
+      "$oid": "5f15d5b7cb4a6642bddc0fe8"
+    },
+    "countInStock": 10,
+    "__v": 0
+  },{
+    "_id": {
+      "$oid": "5f15d964e520d44421ed8e9c"
+    },
+    "image": "https://i.imgur.com/jDCVOhn.png",
+    "brand": "Frying Pan",
+    "price": 109.99,
+    "rating": 5,
+    "numReviews": 0,
+    "isFeatured": true,
+    "name": "Okonomiyaki",
+    "description": "Okonomiyaki is a versatile and indulgent Japanese pancake. It's made with a batter of cabbage, flour, and eggs, cooked on a griddle, and topped with various fillings like meat, seafood, or vegetables. Finished with okonomiyaki sauce, seaweed flakes, bonito flakes, and mayonnaise, it offers a delicious and customizable experience.",
+    "category": {
+      "$oid": "5f15d5b7cb4a6642bddc0fe8"
+    },
+    "countInStock": 10,
+    "__v": 0
+  },{
+    "_id": {
+      "$oid": "5f15d9b3e520d44421ed8e9d"
+    },
+    "image": "https://i.imgur.com/jNdIEeI.png",
+    "brand": "Frying Pan",
+    "price": 39.99,
+    "rating": 5,
+    "numReviews": 0,
+    "isFeatured": true,
+    "name": "Onigiri",
+    "description": "Onigiri consists of a compacted ball or triangle of rice, often seasoned with salt and molded by hand. It can be filled with various ingredients like pickled plum (umeboshi), grilled salmon, tuna, or vegetables. Onigiri is wrapped in a strip of seaweed (nori), which adds a hint of umami and serves as a convenient holding wrapper. With its portable nature and satisfying combination of flavors and textures, onigiri is a popular on-the-go snack or a part of a bento box meal. It's a comforting and versatile treat that brings joy to both children and adults alike.",
+    "category": {
+      "$oid": "5f15d5b7cb4a6642bddc0fe8"
+    },
+    "countInStock": 5,
+    "__v": 0
+  },{
+    "_id": {
+      "$oid": "5f15da13e520d44421ed8e9e"
+    },
+    "image": "https://i.imgur.com/U3vDxI2.png",
+    "brand": "Mobilix",
+    "price": 109.99,
+    "rating": 5,
+    "numReviews": null,
+    "isFeatured": true,
+    "name": "Ramen",
+    "description": "Ramen is a beloved Japanese noodle dish consisting of wheat noodles in a flavorful broth. Toppings like sliced pork, eggs, and green onions add depth to the dish. It's a comforting and delicious culinary experience that has gained worldwide popularity.",
+    "category": {
+      "$oid": "5f15d5b2cb4a6642bddc0fe7"
+    },
+    "countInStock": 2,
+    "__v": 0
+  },{
+    "_id": {
+      "$oid": "5f15da13e520d44421ed8e9e"
+    },
+    "image": "https://i.imgur.com/tHSCbIh.png",
+    "brand": "Mobilix",
+    "price": 49.99,
+    "rating": 5,
+    "numReviews": null,
+    "isFeatured": true,
+    "name": "Takoyaki",
+    "description": "Takoyaki is a popular Japanese street food: bite-sized octopus balls with a crispy exterior and a soft, gooey center. They're cooked in special pans, filled with octopus and other savory ingredients, and served with takoyaki sauce, mayonnaise, and toppings like bonito flakes and seaweed. It is a delicious combination of textures and flavors in a convenient snack.",
+    "category": {
+      "$oid": "5f15d5b2cb4a6642bddc0fe7"
+    },
+    "countInStock": 2,
+    "__v": 0
+  }]
